@@ -1,0 +1,201 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 300px;
+    width : 20%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color : black;
+    font-family: 'Dosis';
+  }
+  
+
+  .column-products {
+    float: left;
+    width: 30%;
+    height : 40%;
+    font-family: 'Dosis';
+  }
+  
+  .row-recipes:after {
+    display: table;
+    clear: both;
+  }
+  .row1{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .row1right{
+    width: 30%;
+    justify-content: right;
+    text-align: right;
+    float: right;
+    align-items: flex-end;
+  }
+  .row1left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  .keyboard-name{
+    justify-content: left;
+    text-align: left;
+    margin-top: 2.5%;
+    margin-left: 4%;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+  }
+  
+  .keyboard-layout
+  {
+    float :right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Dosis';
+    text-align: right;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top :4.5%;
+    margin-right: 6%;
+  }
+  .keyboard-brand
+  {
+    float :left;
+    margin : 4.5%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Dosis';
+  }
+  
+  .keyboard-price{
+    float:right;
+    margin-top :4.5%;
+    margin-right: 4.5%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Dosis';
+  }
+  
+  @media screen and (max-width: 1650px) {
+    .card{
+      width: 28%;
+    }
+  }
+  
+  @media screen and (max-width: 1440px) {
+    
+    .dish-type{
+      justify-content: left;
+      text-align: left;
+      margin-top: 2.5%;
+      margin-left: 4.5%;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+  
+    .name-of-dish{
+      justify-content: left;
+      text-align: left;
+      margin-top: 2.5%;
+      margin-left: 4%;
+    
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+    }
+    
+    .recipe-difficulty
+    {
+      float :left;
+      margin : 4.5%;
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    
+    .recipe-rating{
+      float : right;
+      margin-top :4.5%;
+      margin-right: 4.5%;
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 36px;
+    }
+  
+    .image-dish{
+      height: 75%;
+      width: 75%;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 1280px) {
+    .card{
+      width: 26%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1050px) {
+    .dish-type{
+      justify-content: left;
+      text-align: left;
+      margin-top: 2.5%;
+      margin-left: 4.5%;
+      font-size: 10px;
+      font-weight: 600;
+    }
+    
+    .name-of-dish{
+      justify-content: left;
+      text-align: left;
+      margin-top: 2.5%;
+      margin-left: 4%;
+    
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    
+    .recipe-difficulty
+    {
+      float :left;
+      margin : 4.5%;
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+    }
+    
+    .recipe-rating{
+      float : right;
+      margin-top :4.5%;
+      margin-right: 4.5%;
+  
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 36px;
+    }
+  }
+  
+
+  
+  

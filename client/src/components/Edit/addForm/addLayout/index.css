@@ -1,0 +1,97 @@
+.column-form {
+    float: left;
+    width: 50%;
+  }
+  
+  .row-form{
+    width: 100%;
+  }
+  
+  .row-form:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .border-form{
+    margin: 50px;
+    padding: 10px;
+  }
+  
+  .font-for-inputs{
+    font-size: 15px;
+    padding-left: 2px;
+    background-color: #c4c4c4;
+    border: none;
+    font-family: 'Dosis';
+  }
+  
+  .font-for-cancel-submit{
+    font-size: 20px;
+    padding-left: 2px;
+    height: 20px;
+    background-color: #c4c4c4;
+    border: none;
+    font-family: 'Dosis';
+    cursor: pointer;
+  }
+  
+  .font-for-cancel-submit:hover {
+    transition: ease-in 0.3s;
+    color: white;
+  }
+  
+  .input-row{
+    width: 500px;
+    border-radius: 3px;
+    padding-left: 10px;
+    height: 30px;
+  
+  }
+  
+  .input-row-long{
+    width: 500px;
+    border-radius: 3px;
+    height: 190px;
+  }
+  
+  .input-row-diff{
+    width: 100px;
+    padding: auto;
+    border-radius: 3px;
+    height: 30px;
+  }
+  
+  .input-row-rating{
+    width: 100px;
+    padding: auto;
+    border-radius: 3px;
+    height: 30px;
+  }
+  
+  
+  .column-form-diff-rating {
+    float: left;
+    width: 50%;
+  }
+  
+  .row-form-diff-rating:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .image-preview{
+    padding-top: 20px;
+    max-width: 350px;
+    padding-bottom: 50px;
+  }
+  
+  .choices {
+    font-family: 'Dosis';
+    margin-left: 1%;
+  }
+
+  .label-class{
+    font-family: 'Dosis';
+  }

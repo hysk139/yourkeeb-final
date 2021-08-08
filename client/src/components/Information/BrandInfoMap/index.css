@@ -1,0 +1,78 @@
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 300px;
+    width : 70%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color : black;
+    font-family:'Dosis';
+  }
+  .column-brand {
+    float: left;
+    width: 85%;
+    height : 40%;
+  }
+
+  .row-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand-country-fp{
+    justify-content: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family:'Dosis';
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .brand-name-fp{
+    justify-content: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+  }
+  
+  .brand-description-fp
+  {
+    float :left;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Dosis';
+  }
+  
+
+  
+  @media screen and (max-width: 1650px) {
+    .card1{
+      width: 77%;
+    }
+  }
+
+  
+  @media screen and (max-width: 1280px) {
+    .card{
+      width: 70%;
+    }
+  }
+  
+
+
+  
+  
