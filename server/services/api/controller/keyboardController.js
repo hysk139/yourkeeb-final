@@ -91,7 +91,7 @@ const insertKeyboard = async (req, res) => {
         const { rows } = await dbQueries(query, [name, brand_id, layout_id, description,  price]);
         const dbResponse = rows;
         if (!dbResponse) {
-            errorMessage.error = `Cannot add to ${req.body.table_name}` ;
+            errorMessage.error = `Cannot add` ;
             return res
               .status(status.error)
               .send(errorMessage + ' ' + error.code);

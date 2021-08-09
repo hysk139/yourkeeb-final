@@ -15,7 +15,7 @@ const updateKbById = async (req, res) => {
       const { rows } = await dbQueries(query, [name, brand_id, layout_id, description,  price, id]);
       const dbResponse = rows;
       if (dbResponse[0] === undefined) {
-        errorMessage.error = 'There are no appetizer';
+        errorMessage.error = 'There are no keyboards';
         return res
           .status(status.error)
           .send(errorMessage.error + ' ' + error.code);
@@ -41,7 +41,7 @@ const updateKbById = async (req, res) => {
       const { rows } = await dbQueries(query, [id]);
       const dbResponse = rows;
       if (dbResponse[0] === undefined) {
-        errorMessage.error = 'There are no appetizer';
+        errorMessage.error = 'There are no keyboards';
         return res
           .status(status.error)
           .send(errorMessage.error + ' ' + error.code);
@@ -126,7 +126,7 @@ const updateKbById = async (req, res) => {
       const { rows } = await dbQueries(query, [layout, keycount, details, id]);
       const dbResponse = rows;
       if (dbResponse[0] === undefined) {
-        errorMessage.error = 'There are no appetizer';
+        errorMessage.error = 'There are no layout';
         return res
           .status(status.error)
           .send(errorMessage.error + ' ' + error.code);
@@ -152,7 +152,7 @@ const updateKbById = async (req, res) => {
       const { rows } = await dbQueries(query, [id]);
       const dbResponse = rows;
       if (dbResponse[0] === undefined) {
-        errorMessage.error = 'There are no appetizer';
+        errorMessage.error = 'There are no layout';
         return res
           .status(status.error)
           .send(errorMessage.error + ' ' + error.code);
@@ -208,7 +208,7 @@ const updateKbById = async (req, res) => {
       const { rows } = await dbQueries(query, [id]);
       const dbResponse = rows;
       if (dbResponse[0] === undefined) {
-        errorMessage.error = 'There are no appetizer';
+        errorMessage.error = 'There are no brand';
         return res
           .status(status.error)
           .send(errorMessage.error + ' ' + error.code);
